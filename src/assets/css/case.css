@@ -1,0 +1,25 @@
+.case_list_wrapper {
+    cursor: pointer;
+}
+
+table td {
+    border-top: none !important;
+}
+
+.case_main_wrapper .form-check-input {
+    background-color: #2a2b2c;
+}
+
+.theme-dark .case_main_wrapper .card-body table td {
+    background-color: #242525;
+}
+
+.theme-light .case_main_wrapper .card-body table td {
+    background-color: #fff;
+}
+
+.case_wrapper .close_case_wrapper {
+    display: flex;
+    float: right;
+    gap: 5px;
+}

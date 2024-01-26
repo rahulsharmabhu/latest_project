@@ -1,0 +1,469 @@
+{
+       "nodes": [
+              {
+                     "id": 1,
+                     "data": {
+                            "properties": {
+                                   "name": "Jamie Lawes",
+                                   "age": "20"
+                            },
+                            "categories": [
+                                   "Person"
+                            ],
+                            "latitude": 48.858838,
+                            "longitude": 2.343436
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Jamie Lawes",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf183",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            },
+                            "pulse": {
+                                   "enabled": true,
+                                   "endRatio": 1.5,
+                                   "width": 4,
+                                   "interval": 600,
+                                   "startRatio": 1.0
+                            }
+                     },
+                     "x": 1.0,
+                     "y": 1.0
+              },
+              {
+                     "id": 2,
+                     "data": {
+                            "properties": {
+                                   "phone_make": "motorla",
+                                   "phone_number": "000 111 222"
+                            },
+                            "categories": [
+                                   "Phone"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "000 111 222",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf10b",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": 2,
+                     "y": 2
+              },
+              {
+                     "id": 3,
+                     "data": {
+                            "properties": {
+                                   "name": "Troy lawes",
+                                   "age": "42"
+                            },
+                            "categories": [
+                                   "Person"
+                            ],
+                            "latitude": 51.509615,
+                            "longitude": -0.134514
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Troy lawes",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf183",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": 3,
+                     "y": 3
+              },
+              {
+                     "id": 4,
+                     "data": {
+                            "properties": {
+                                   "name": "Joan lawes",
+                                   "age": "45"
+                            },
+                            "categories": [
+                                   "Person"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Joan lawes",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf183",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": 4,
+                     "y": 4
+              },
+              {
+                     "id": 5,
+                     "data": {
+                            "properties": {
+                                   "name": "Kelly Lawes",
+                                   "age": "17",
+                                   "occupation": "Study"
+                            },
+                            "categories": [
+                                   "Person"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Kelly Lawes",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf183",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": 5,
+                     "y": 5
+              },
+              {
+                     "id": 6,
+                     "data": {
+                            "properties": {
+                                   "number_plate": "ABC123",
+                                   "make": "BMW",
+                                   "model": "7 Series"
+                            },
+                            "categories": [
+                                   "Motor Vehicle"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "ABC123",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf1b9",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     }
+              },
+              {
+                     "id": 7,
+                     "data": {
+                            "properties": {
+                                   "name": "@JamieLawes",
+                                   "social_media_acount": "@JamieLawes",
+                                   "account_URL": "https://www.facebook.com/mike.marinos"
+                            },
+                            "categories": [
+                                   "Social Media Account"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "@JamieLawes",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf09a",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": 7,
+                     "y": 7
+              },
+              {
+                     "id": 8,
+                     "data": {
+                            "properties": {
+                                   "name": "DO IT RIGHT PEOPLE!!!",
+                                   "social_media_post_type": "Post",
+                                   "social_media_post_URL": "https://www.facebook.com/mike.marinos/posts/pfbid02i6aBKrTH2Jv9smjmbUnLtFAiASYHe3DYYGr61U21JVcqYanMWXerUNL6cwUs1eeXl",
+                                   "social_media_post_content": "DO IT RIGHT PEOPLE!!!",
+                                   "social_media_post_date": "14/5/2017 02:45"
+                            },
+                            "categories": [
+                                   "Post"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Post",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf0c9",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            },
+                            "badges": {
+                                   "bottomRight": {
+                                          "color": "#fff",
+                                          "text": {
+                                                 "font": "FontAwesome",
+                                                 "color": "black",
+                                                 "style": "bold",
+                                                 "content": "\uf03e"
+                                          },
+                                          "stroke": {
+                                                 "color": "inherit",
+                                                 "width": 1
+                                          }
+                                   }
+                            }
+                     },
+                     "x": 8,
+                     "y": 8
+              },
+              {
+                     "id": 9,
+                     "data": {
+                            "properties": {
+                                   "name": "Tom Petty",
+                                   "age": "21"
+                            },
+                            "categories": [
+                                   "Person"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Tom Petty",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf183",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": 9.0,
+                     "y": 9.0
+              },
+              {
+                     "id": 10,
+                     "data": {
+                            "properties": {
+                                   "name": "Point Duty"
+                            },
+                            "categories": [
+                                   "Organization"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Point Duty",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf1ad",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": 9.0,
+                     "y": 9.0
+              },
+              {
+                     "id": 11,
+                     "data": {
+                            "properties": {
+                                   "name": "Sydney Tower",
+                                   "Address": "Sydney Tower, NSW, Australia",
+                                   "latitude": "-33.870453",
+                                   "longitude": "151.208755"
+                            },
+                            "categories": [
+                                   "Location"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Sydney Tower",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf041",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": -33.870453,
+                     "y": 151.208755
+              }
+       ],
+       "edges": [
+              {
+                     "id": 100,
+                     "source": 1,
+                     "target": 2,
+                     "data": {
+                            "properties": {
+                                   "call_timestamp_utc": "2023-06-02T05: 13: 26+00: 00"
+                            },
+                            "type": "Called"
+                     },
+                     "attributes": {
+                            "text": "Called"
+                     }
+              },
+              {
+                     "id": 101,
+                     "source": 1,
+                     "target": 4,
+                     "data": {
+                            "properties": {
+                                   "Association Type": "Father"
+                            },
+                            "type": "Associated With"
+                     },
+                     "attributes": {
+                            "text": "Father"
+                     }
+              },
+              {
+                     "id": 103,
+                     "source": 1,
+                     "target": 3,
+                     "data": {
+                            "properties": {
+                                   "Association Type": "Mother"
+                            },
+                            "type": "Associated With"
+                     },
+                     "attributes": {
+                            "text": "Mother"
+                     }
+              },
+              {
+                     "id": 104,
+                     "source": 3,
+                     "target": 4,
+                     "data": {
+                            "properties": {
+                                   "Association Type": "Partner"
+                            },
+                            "type": "Associated With"
+                     },
+                     "attributes": {
+                            "text": "Partner"
+                     }
+              },
+              {
+                     "id": 105,
+                     "source": 3,
+                     "target": 5,
+                     "data": {
+                            "properties": {
+                                   "Association Type": "Daughter"
+                            },
+                            "type": "Associated With"
+                     },
+                     "attributes": {
+                            "text": "Daughter"
+                     }
+              },
+              {
+                     "id": 106,
+                     "source": 4,
+                     "target": 5,
+                     "data": {
+                            "properties": {
+                                   "Association Type": "Daughter"
+                            },
+                            "type": "Associated With"
+                     },
+                     "attributes": {
+                            "text": "Daughter"
+                     }
+              },
+              {
+                     "id": 107,
+                     "source": 1,
+                     "target": 6,
+                     "data": {
+                            "properties": {
+                                   "Access Type": "Owns"
+                            },
+                            "type": "Access To"
+                     },
+                     "attributes": {
+                            "text": "Owns"
+                     }
+              },
+              {
+                     "id": 109,
+                     "source": 7,
+                     "target": 8,
+                     "data": {
+                            "properties": {
+                                   "Link Type": "Link"
+                            },
+                            "type": "Social Media"
+                     },
+                     "attributes": {
+                            "text": "Posted"
+                     }
+              },
+              {
+                     "id": 110,
+                     "source": 1,
+                     "target": 9,
+                     "data": {
+                            "properties": {
+                                   "Link Type": "Link"
+                            },
+                            "type": "Associated"
+                     },
+                     "attributes": {
+                            "text": "Friend"
+                     }
+              },
+              {
+                     "id": 111,
+                     "source": 1,
+                     "target": 7,
+                     "data": {
+                            "properties": {
+                                   "Link Type": "Link"
+                            },
+                            "type": "Facebook Account"
+                     },
+                     "attributes": {
+                            "text": "Facebook Account"
+                     }
+              },
+              {
+                     "id": 112,
+                     "source": 1,
+                     "target": 10,
+                     "data": {
+                            "properties": {
+                                   "Link Type": "Link"
+                            },
+                            "type": "Works For"
+                     },
+                     "attributes": {
+                            "text": "Works For"
+                     }
+              },
+              {
+                     "id": 113,
+                     "source": 1,
+                     "target": 11,
+                     "data": {
+                            "properties": {
+                                   "Link Type": "Link"
+                            },
+                            "type": "Lives At"
+                     },
+                     "attributes": {
+                            "text": "Lives At"
+                     }
+              }
+       ]
+}

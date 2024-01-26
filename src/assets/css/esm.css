@@ -1,0 +1,50 @@
+.collection_wrapper {
+    min-width: 300px;
+}
+
+.result_data_wrapper {
+    margin-bottom: 50px;
+}
+
+.add_button {
+  min-width: 100%;
+}
+.upload_button {
+  min-width: 100%;
+}
+
+.account_system_button {
+  min-width: 100%;
+}
+
+.account_select_button {
+  min-width: 100%;
+}
+
+.systm_default_button {
+ width: 100%
+}
+
+.collection_wrapper {
+  min-width: 92% !important;
+}
+
+.create_collection_button {
+  min-width: 100% !important;
+}
+
+.create_collection_wrapper {
+  margin-bottom: 50px;
+}
+
+.create_collection_wrapper form input {
+  background-color: #2a2b2c;
+}
+
+.create_collection_wrapper form textarea {
+  background-color: #2a2b2c;
+}
+
+.result_data_wrapper input {
+  background-color: #2a2b2c;
+}

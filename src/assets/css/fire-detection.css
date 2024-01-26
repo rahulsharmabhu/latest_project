@@ -1,0 +1,546 @@
+.theme-dark
+  .fire_alerts_data
+  .fire-alert-header
+  .accordion-header
+  .accordion-button {
+  padding: 10px 5px 10px 5px !important;
+  background-color: #242525;
+  z-index: 0;
+  align-items: start;
+}
+
+.theme-light
+  .fire_alerts_data
+  .fire-alert-header
+  .accordion-header
+  .accordion-button {
+  padding: 5px 5px !important;
+  background-color: #fff;
+  z-index: 0;
+  align-items: start;
+}
+
+.fire_alerts_data
+  .fire-alert-header
+  .accordion-header
+  .accordion-button
+  .detection_header_first {
+  margin-bottom: -10px;
+}
+
+.fire_alerts_data
+  .fire-alert-header
+  .accordion-header
+  .accordion-button
+  .detection_header_wrapper
+  .detection_camera_map_info {
+  margin-top: -10px;
+}
+
+.fire_alerts_data
+  .fire-alert-header
+  .accordion-header
+  .accordion-button
+  .detection_header_first
+  .detection_indications {
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.fire_alerts_data .accordion {
+  margin-bottom: 50px;
+  background-color: #242525;
+}
+
+.fire-alert-data {
+  max-height: 25rem;
+}
+
+.badge.badge-down {
+  right: -9px;
+  position: absolute;
+  top: 18px;
+  min-width: 1.429rem;
+  min-height: 1.429rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.786rem;
+  line-height: 0.786;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.badge-down {
+  right: 25px;
+  position: absolute;
+  top: -7px;
+  min-width: 1.15rem;
+  min-height: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.786rem;
+  line-height: 0.786;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.camera-list-badge-down {
+  right: -17px !important;
+}
+
+.cameraTable span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.25px;
+}
+
+.bg-light-danger {
+  background: rgba(234, 84, 85, 0.12) !important;
+}
+
+.theme-dark .camera_list_wrapper .cameraTable tbody td {
+  background-color: #242525 !important;
+}
+
+.theme-light .camera_list_wrapper .cameraTable tbody td {
+  background-color: #fff !important;
+}
+
+.camera_list_wrapper .cameraTable .camera_title h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.9px;
+  letter-spacing: 0.15px;
+}
+
+.camera_list {
+  max-height: 25rem;
+}
+.camera_list_wrapper {
+  margin-bottom: 50px;
+}
+
+.camera_panel_wrapper .modal-body .camera_info {
+  justify-content: space-between;
+}
+
+.camera_panel_wrapper .modal-body h6,
+p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.9px;
+  letter-spacing: 0.15px;
+}
+
+.camera_panel_wrapper .modal-body .camera_panel_detections tbody td {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18.9px;
+  letter-spacing: 0.15px;
+}
+
+.theme-dark .camera_panel_wrapper .modal-content {
+  background-color: #242525;
+}
+
+.theme-light .camera_panel_wrapper .modal-content {
+  background-color: #fff;
+}
+
+.theme-dark
+  .camera_panel_wrapper
+  .modal-body
+  .camera_panel_detections
+  .table
+  > :not(caption)
+  > *
+  > * {
+  background-color: #242525;
+}
+
+.theme-light
+  .camera_panel_wrapper
+  .modal-body
+  .camera_panel_detections
+  .table
+  > :not(caption)
+  > *
+  > * {
+  background-color: #fff;
+}
+
+.firedetection_image_wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.firedetection_image_wrapper .image_menu {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 3px 4px;
+  left: 100%;
+  margin-left: -35px;
+  top: 3px;
+  z-index: 10;
+  margin-top: 5px;
+  cursor: pointer;
+  box-shadow: 3px 2px 3px grey;
+}
+
+.firedetection_image_wrapper .image_menu svg {
+  color: #000;
+}
+
+.select-image {
+  position: absolute;
+  padding: 3px 4px;
+  background-color: grey;
+  border-radius: 2px;
+  left: 100%;
+  margin-left: -35px;
+  top: 80%;
+  z-index: 10;
+}
+
+.select-image input {
+  height: 15px;
+  width: 15px;
+}
+
+.image_menu_border_color {
+  border-style: solid;
+  border-color: #007bff;
+  border-width: 1px;
+}
+
+.firedetection_image_wrapper .more_options {
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 40px;
+  z-index: 1;
+  right: 10px;
+  width: auto;
+  min-width: max-content;
+  padding: 5px 9px 5px 0px;
+}
+
+.more_options ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.more_options ul li {
+  color: #000;
+  cursor: pointer;
+  margin-left: 0px;
+  padding: 5px 0px 5px 20px;
+  border-radius: 0px;
+  border-radius: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 135%;
+  letter-spacing: 0.15px;
+}
+
+.more_options ul li svg {
+  margin-right: 2px;
+  margin-left: -15px;
+}
+
+.more_options ul li:hover {
+  background-color: lightgray;
+  border-radius: 2px;
+  color: #007bff;
+}
+
+.options_back_color {
+  background-color: #fff;
+}
+
+.show_detections {
+  position: absolute;
+  z-index: 1;
+}
+
+.show_detections .detection_wrapper {
+  background-color: #4b4b4b;
+  display: inline-block;
+  font-family: "Montserrat";
+  font-style: normal;
+  letter-spacing: 0.15px;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: 600;
+  margin: 4px 4px;
+}
+
+.show_detections .detection_wrapper svg {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.image .rp-stage {
+  cursor: pointer;
+  padding-left: 0px;
+  --bs-gutter-x: 0px;
+}
+
+.image .rp-image {
+  margin-left: -52px;
+  min-width: 400px;
+}
+
+.detected_image {
+  border-style: solid;
+  border-color: red;
+  border-radius: 2px;
+  min-width: 100%;
+  height: 204px;
+  border-width: 2px;
+}
+
+.detection_header_wrapper .detection_header_first {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.detection_header_first .detection_badge {
+  float: left;
+  text-align: left;
+}
+
+.detection_header_first .detection_indications {
+  float: right;
+  text-align: right;
+}
+
+.detection_header_first .detection_indications .detection_status {
+  margin-left: 0px;
+}
+
+.detection_header_first .detection_indications .detection_icon {
+  padding-left: 10px;
+}
+
+.detection_header_first .detection_indications .detection_plus_icon {
+  padding-left: 5px;
+}
+
+.detection_header_second {
+  padding-top: 5px;
+}
+
+.detection_header_second .detection_camera_id {
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.detection_camera_time {
+  font-size: 13px;
+  margin-top: -12px;
+}
+
+.detection_camera_map_info {
+  margin-top: -15px;
+}
+
+.detection_camera_map_info .detection_chart {
+  text-align: left;
+  margin-left: -20px;
+}
+
+.detection_info {
+  text-align: left;
+  margin-right: 25px;
+}
+
+.detection_info label {
+  margin-bottom: 0px;
+}
+
+.detection_info small {
+  font-size: 13px;
+}
+
+.detection_info .detection_alert_time {
+  color: red;
+}
+.detection_info .detection_alert_time small {
+  color: red;
+}
+
+.canvas-wrapper .rp-stage .rp-image {
+  width: 245px !important;
+}
+
+.detection_details {
+  margin-top: 5px;
+}
+
+.filter_menu_info {
+  float: right;
+  cursor: pointer;
+}
+
+.filter_menu_info .more_options_menu {
+  padding: 0px;
+}
+
+.filter_menu_info .more_options_menu button {
+  display: flex;
+  height: 30px;
+}
+
+.filter_menu_info .more_options_menu {
+  padding: 0px;
+}
+
+.filter_menu_info .more_options_menu button p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 135%;
+  letter-spacing: 0.15px;
+}
+
+.more_options_camera {
+  border-radius: 5px;
+  position: absolute !important;
+  margin-left: -155px !important;
+  z-index: 10 !important;
+  width: auto;
+  min-width: max-content;
+  max-height: 120px;
+  top: 15px;
+  padding: 5px 9px 5px 0px;
+}
+
+.more_options_camera ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.more_options_camera ul li {
+  color: #000;
+  cursor: pointer;
+  margin-left: 0px;
+  padding: 5px 0px 5px 20px;
+  border-radius: 0px;
+  border-radius: 0;
+  font-size: 13px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+  letter-spacing: 0.15px;
+}
+
+.more_options_camera ul li svg {
+  margin-right: 2px;
+  margin-left: -15px;
+}
+
+.more_options_camera ul li:hover {
+  background-color: lightgray;
+  border-radius: 2px;
+  color: #007bff;
+}
+
+.more_back_color {
+  background-color: #fff;
+}
+
+.more_border_color {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #007bff;
+  border-width: 1px;
+}
+
+@media (min-width: 1300px) {
+  .fire_detection_image_modal {
+    --bs-modal-width: 1320px !important;
+  }
+}
+
+.theme-dark .fire_detection_image_modal .image-content {
+  background-color: #242525 !important;
+}
+
+.theme-light .fire_detection_image_modal .image-content {
+  background-color: #fff !important;
+}
+
+.filter_camera_panel {
+  margin-top: 75px !important;
+  margin-right: 40px !important;
+  max-width: 350px !important;
+}
+
+.filter_camera_panel .modal-header {
+  display: flex;
+}
+
+.filter_camera_panel .modal-header .modal-title button {
+  margin-left: 11px;
+  text-align: left;
+  justify-content: center;
+}
+
+.filter_camera_panel
+  .modal_body
+  .accordion
+  .accordion-header
+  .accordion-button {
+  font-weight: 500;
+  font-size: 13rem;
+  line-height: 1.45;
+}
+
+.header_image_modal {
+  align-items: center;
+  min-width: 1220px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header_image_modal .camera_info {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 118%;
+  letter-spacing: -0.25px;
+  text-align: left;
+  align-items: center;
+}
+
+.header_image_modal .camera_info .filter_button button {
+  text-align: center;
+}
+
+.header_image_modal .camera_info .filter_button div {
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.15px;
+}
+
+.header_image_modal .camera_info .filter_button svg {
+  margin-right: 5px;
+}

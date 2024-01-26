@@ -1,0 +1,193 @@
+{
+       "nodes": [
+              {
+                     "id": 1,
+                     "data": {
+                            "properties": {
+                                   "name": "Amit Patel",
+                                   "age": "20"
+                            },
+                            "categories": [
+                                   "Person"
+                            ],
+                            "latitude": 48.858838,
+                            "longitude": 2.343436
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Amit Patel",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf183",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            },
+                            "pulse": {
+                                   "enabled": true,
+                                   "endRatio": 1.5,
+                                   "width": 4,
+                                   "interval": 600,
+                                   "startRatio": 1.0
+                            }
+                     },
+                     "x": 1.0,
+                     "y": 1.0
+              },
+              {
+                     "id": 2,
+                     "data": {
+                            "properties": {
+                                   "phone_make": "motorla",
+                                   "phone_number": "000 111 222"
+                            },
+                            "categories": [
+                                   "Phone"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "000 111 222",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf10b",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": 2,
+                     "y": 2
+              },
+              {
+                     "id": 3,
+                     "data": {
+                            "properties": {
+                                   "number_plate": "ABC123",
+                                   "make": "BMW",
+                                   "model": "7 Series"
+                            },
+                            "categories": [
+                                   "Motor Vehicle"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "ABC123",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf1b9",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     }
+              },
+              {
+                     "id": 4,
+                     "data": {
+                            "properties": {
+                                   "name": "Point Duty"
+                            },
+                            "categories": [
+                                   "Organization"
+                            ],
+                            "latitude": 51.509615,
+                            "longitude": -0.134514
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Point Duty",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf1ad",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": 9.0,
+                     "y": 9.0
+              },
+              {
+                     "id": 5,
+                     "data": {
+                            "properties": {
+                                   "name": "Sydney Tower",
+                                   "Address": "Sydney Tower, NSW, Australia",
+                                   "latitude": "-33.870453",
+                                   "longitude": "151.208755"
+                            },
+                            "categories": [
+                                   "Location"
+                            ]
+                     },
+                     "attributes": {
+                            "color": "orange",
+                            "text": "Sydney Tower",
+                            "icon": {
+                                   "font": "FontAwesome",
+                                   "content": "\uf041",
+                                   "color": "#1E3050",
+                                   "style": "bold"
+                            }
+                     },
+                     "x": -33.870453,
+                     "y": 151.208755
+              }
+       ],
+       "edges": [
+              {
+                     "id": 100,
+                     "source": 1,
+                     "target": 2,
+                     "data": {
+                            "properties": {
+                                   "call_timestamp_utc": "2023-06-02T05: 13: 26+00: 00"
+                            },
+                            "type": "Called"
+                     },
+                     "attributes": {
+                            "text": "Called"
+                     }
+              },
+              {
+                     "id": 107,
+                     "source": 1,
+                     "target": 3,
+                     "data": {
+                            "properties": {
+                                   "Access Type": "Owns"
+                            },
+                            "type": "Access To"
+                     },
+                     "attributes": {
+                            "text": "Owns"
+                     }
+              },
+              {
+                     "id": 112,
+                     "source": 1,
+                     "target": 4,
+                     "data": {
+                            "properties": {
+                                   "Link Type": "Link"
+                            },
+                            "type": "Works For"
+                     },
+                     "attributes": {
+                            "text": "Works For"
+                     }
+              },
+              {
+                     "id": 113,
+                     "source": 1,
+                     "target": 5,
+                     "data": {
+                            "properties": {
+                                   "Link Type": "Link"
+                            },
+                            "type": "Lives At"
+                     },
+                     "attributes": {
+                            "text": "Lives At"
+                     }
+              }
+       ]
+}

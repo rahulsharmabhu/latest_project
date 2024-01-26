@@ -1,0 +1,77 @@
+.theme-dark :where(.css-dev-only-do-not-override-fpg3f5).ant-card  {
+    background: #242525;
+  }
+  
+  .theme-dark :where(.css-dev-only-do-not-override-fpg3f5).ant-input::placeholder {
+    color: white !important; /* Set the desired color for the placeholder */
+  }
+  
+  .theme-dark .se-resizing-bar{
+    background-color: #242525 !important;
+  }
+  
+  .theme-dark .sun-editor, .theme-dark .se-dialog button,.theme-dark .sun-editor .se-dialog input,.theme-dark .sun-editor .se-dialog label {
+    color: white !important;
+  }
+  
+  .theme-dark .se-btn-primary {
+    background-color: #366fa1 !important;
+  }
+  
+  .theme-dark .sun-editor .se-btn:enabled:focus, .theme-dark .sun-editor .se-btn:enabled:hover  {
+    background-color: white !important;
+    color: #242525 !important;
+  }
+  
+  
+  
+  .theme-dark .se-btn-list{
+    color: white;
+  }
+  
+  .theme-dark .sun-editor .se-list-layer.se-list-format ul h1,
+  .theme-dark .sun-editor .se-list-layer.se-list-format ul h2,
+  .theme-dark .sun-editor .se-list-layer.se-list-format ul h3,
+  .theme-dark .sun-editor .se-list-layer.se-list-format ul h4,
+  .theme-dark .sun-editor .se-list-layer.se-list-format ul h5,
+  .theme-dark .sun-editor .se-list-layer.se-list-format ul h6
+  {
+    color: white;
+  }
+  
+  .theme-dark .se-btn-list:hover,
+  .theme-dark .se-btn-list:hover h1,
+  .theme-dark .se-btn-list:hover h2,
+  .theme-dark .se-btn-list:hover h3,
+  .theme-dark .se-btn-list:hover h4,
+  .theme-dark .se-btn-list:hover h5,
+  .theme-dark .se-btn-list:hover h6{
+    color: #000000 !important;
+  }
+  
+  
+  .theme-dark .sun-editor button,
+  .theme-dark .ant-input-group-addon,
+  .theme-dark .se-btn  {
+    color:  white!important;
+  }
+  
+  
+  .theme-dark .se-btn-group,
+  .theme-dark .card,
+  .theme-dark :where(.css-dev-only-do-not-override-fpg3f5).ant-input,
+  .theme-dark .sun-editor-editable,
+  .theme-dark .se-dialog-content,
+  .theme-dark ._se_tab_link,
+  .theme-dark .se-toolbar,
+  .theme-dark .sun-editor-editable pre,
+  .theme-dark .se-selector-table,
+  .theme-dark .se-list-layer,
+  .theme-dark .se-dialog-form,
+  .theme-dark .se-dialog-form label,
+  .theme-dark .se-btn-list.default_value,
+  .theme-dark .se-list-layer.se-list-format ul pre {
+    background-color: #242525 !important;
+    color:  white !important;
+  }
+  

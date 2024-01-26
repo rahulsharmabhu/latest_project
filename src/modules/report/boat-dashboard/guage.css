@@ -1,0 +1,98 @@
+.vertical-slider-container {
+  position: relative;
+  width: 30px; /* Set the width of the slider */
+  height: 200px; /* Set the height of the slider */
+  margin: 20px;
+}
+
+.vertical-slider {
+  position: absolute;
+  appearance: none;
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+  outline: none;
+  border: none;
+  border-radius: 0; /* Sharp border */
+  transform: rotate(270deg); /* Rotate to make it vertical */
+  transform-origin: right center; /* Adjust the rotation origin */
+  cursor: pointer;
+}
+
+.vertical-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px; /* Set the width of the thumb */
+  height: 20px; /* Set the height of the thumb */
+  background: #f70505; /* Thumb color */
+  border-radius: 0; /* Sharp border */
+  border: 2px solid #fff; /* Thumb border */
+}
+
+.vertical-slider::-moz-range-thumb {
+  width: 20px; /* Set the width of the thumb */
+  height: 20px; /* Set the height of the thumb */
+  background: #ff0000; /* Thumb color */
+  border-radius: 0; /* Sharp border */
+  border: 2px solid #fff; /* Thumb border */
+}
+
+/* Adjust the position of the thumb */
+.vertical-slider::-moz-range-thumb {
+  transform: translateY(-50%);
+}
+
+.vertical-slider::-webkit-slider-thumb {
+  transform: translateY(-50%);
+}
+
+.custom-slider {
+  margin-top: 18px;
+
+  .rs-slider-handle {
+    top: -6px;
+    background-color: #ff3434;
+    text-align: center;
+    padding: 3px;
+    margin-left: -16px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 0 0 8px rgb(52 152 255 / 25%);
+    }
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &.rs-slider-dragging .rs-slider-handle,
+  &.rs-slider-dragging .rs-slider-handle:hover {
+    box-shadow: none;
+    transform: scale(1.2);
+  }
+}
+
+.rs-slider-progress-bar {
+  background-color: #f70505 !important;
+}
+
+.rs-slider-bar {
+  border-radius: 0px !important;
+}
+
+.boat-dashboard-bg{
+  background: #2A2B2C;
+}
+
+.boat-dashboard-btn-bg{
+  background: #2A2B2C;
+}
+
+.boat-dashboard-heading-bg{
+  background: #3D3E3F !important;
+}
+
+.boat-dashboard-heading-text{
+  color: #93969A !important;
+}

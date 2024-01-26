@@ -1,0 +1,18 @@
+#map {
+  height: 300px;
+  width: 80%;
+}
+
+.leaflet-control-attribution {
+  display: none;
+}
+
+.leaflet-control-layers {
+  /* visibility: hidden !important; */
+  display: none !important;
+}
+
+.dropdown-menu{
+    --bs-dropdown-zindex: 1080 !important;
+    --bs-dropdown-min-width: none;
+}

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Untitled</name>
+	<gx:CascadingStyle kml:id="__managed_style_28511FF7B52CBD6109F8">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1E02DCB51F2CBD6109F8">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0DB6D701C42CBD6109F8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E02DCB51F2CBD6109F8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_28511FF7B52CBD6109F8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0A2E20BA7A2CBD6109F5">
+		<name>Pen 1</name>
+		<LookAt>
+			<longitude>145.3733252730045</longitude>
+			<latitude>-42.30728804195206</latitude>
+			<altitude>-0.7555889667304561</altitude>
+			<heading>359.9995860381758</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00019023</gx:fovy>
+			<range>4302.188909001416</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DB6D701C42CBD6109F8</styleUrl>
+		<Point>
+			<coordinates>145.3638271773336,-42.30406476303026,-0.7568345589924628</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="069808177D2CBD6135D8">
+		<name>Pen 2</name>
+		<LookAt>
+			<longitude>145.3733252730045</longitude>
+			<latitude>-42.30728804195206</latitude>
+			<altitude>-0.7555889667304561</altitude>
+			<heading>359.9995860381758</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00019023</gx:fovy>
+			<range>4302.188909001416</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DB6D701C42CBD6109F8</styleUrl>
+		<Point>
+			<coordinates>145.3649065897786,-42.30354598651499,-0.7523815537092169</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0635A7F8A22CBD618615">
+		<name>Pen 3</name>
+		<LookAt>
+			<longitude>145.3733252730045</longitude>
+			<latitude>-42.30728804195206</latitude>
+			<altitude>-0.7555889667304561</altitude>
+			<heading>359.9995860381758</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00019023</gx:fovy>
+			<range>4302.188909001416</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DB6D701C42CBD6109F8</styleUrl>
+		<Point>
+			<coordinates>145.3659320245182,-42.30286754595406,-0.7483506447189454</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02C779F1292CBD61A44C">
+		<name>Pen 4</name>
+		<LookAt>
+			<longitude>145.3733252730045</longitude>
+			<latitude>-42.30728804195206</latitude>
+			<altitude>-0.7555889667304561</altitude>
+			<heading>359.9995860381758</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00019023</gx:fovy>
+			<range>4302.188909001416</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DB6D701C42CBD6109F8</styleUrl>
+		<Point>
+			<coordinates>145.3676589779305,-42.30182990644432,-0.7564987699355098</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08C4815E722CBD61BDB3">
+		<name>Pen 5</name>
+		<LookAt>
+			<longitude>145.3733252730045</longitude>
+			<latitude>-42.30728804195206</latitude>
+			<altitude>-0.7555889667304561</altitude>
+			<heading>359.9995860381758</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00019023</gx:fovy>
+			<range>4302.188909001416</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DB6D701C42CBD6109F8</styleUrl>
+		<Point>
+			<coordinates>145.368657351562,-42.30125121143162,-0.7577023481097238</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09568295882CBD61E38A">
+		<name>Pen 6</name>
+		<LookAt>
+			<longitude>145.375583304809</longitude>
+			<latitude>-42.30205648561679</latitude>
+			<altitude>-0.7525720422872295</altitude>
+			<heading>359.9995857565299</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00019023</gx:fovy>
+			<range>4302.185942268698</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DB6D701C42CBD6109F8</styleUrl>
+		<Point>
+			<coordinates>145.3696199224685,-42.30079142478398,-0.7577058327458788</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="096BC47ADF2CBD61FF7B">
+		<name>Pen 7</name>
+		<LookAt>
+			<longitude>145.375583304809</longitude>
+			<latitude>-42.30205648561679</latitude>
+			<altitude>-0.7525720422872295</altitude>
+			<heading>359.9995857565299</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00019023</gx:fovy>
+			<range>4302.185942268698</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DB6D701C42CBD6109F8</styleUrl>
+		<Point>
+			<coordinates>145.370537793409,-42.30027033127043,-0.7564415874881592</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="030132EBC62CBD6217D6">
+		<name>Pen 8</name>
+		<LookAt>
+			<longitude>145.375583304809</longitude>
+			<latitude>-42.30205648561679</latitude>
+			<altitude>-0.7525720422872295</altitude>
+			<heading>359.9995857565299</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00019023</gx:fovy>
+			<range>4302.185942268698</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DB6D701C42CBD6109F8</styleUrl>
+		<Point>
+			<coordinates>145.3715361393067,-42.29961181741539,-0.7556431087116492</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="085A8C4D902CBD623D9C">
+		<name>Pen 9</name>
+		<LookAt>
+			<longitude>145.375583304809</longitude>
+			<latitude>-42.30205648561679</latitude>
+			<altitude>-0.7525720422872295</altitude>
+			<heading>359.9995857565299</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00019023</gx:fovy>
+			<range>4302.185942268698</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0DB6D701C42CBD6109F8</styleUrl>
+		<Point>
+			<coordinates>145.3723186099633,-42.29903311178822,-0.756951728732482</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

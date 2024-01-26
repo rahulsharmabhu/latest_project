@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/pd_arrow.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TH Fluid UI</title>
+
+</head>
+<body class="theme-dark">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+        // Wait for the document to be fully loaded
+        document.addEventListener("DOMContentLoaded", function() {
+            // Check if there is at least one div with class "card-body"
+            var cardBodyExists = document.querySelector('.card-body');
+
+            // If a div with class "card-body" exists, remove all h3 elements
+            if (cardBodyExists) {
+                var h3Elements = document.querySelectorAll('h3');
+                h3Elements.forEach(function(h3Element) {
+                    h3Element.remove();
+                });
+            }
+
+            const theme = localStorage.getItem("theme");
+
+            if (theme === "light") {
+                document.querySelector("html").setAttribute("data-bs-theme", "light");
+                document.querySelector("body").classList.remove("theme-dark");
+                document.querySelector("body").classList.add("theme-light");
+            } else if (theme === "dark") {
+                document.querySelector("html").setAttribute("data-bs-theme", "dark");
+                document.querySelector("body").classList.remove("theme-light");
+                document.querySelector("body").classList.add("theme-dark");
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+.compass_container {
+  min-width: 305px;
+  background-color: #fff;
+}
+
+.compass_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.compass_pannel .compass_image {
+  position: relative;
+  min-width: 245px;
+  min-height: 245px;
+}
+.compass_pannel {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.circle_image {
+  position: absolute;
+  min-width: 185px;
+  top: 43px;
+  left: 29px;
+}
+
+.ship_image_col {
+  position: absolute;
+  top: 22%;
+  left: 105px;
+}
+
+.number_list li.number {
+  list-style: none;
+  display: inline-block;
+  position: absolute;
+  z-index: 999;
+  border: 2px solid #e7e3e3;
+  padding: 2px 4px;
+  text-align: center;
+  min-width: 25px;
+  color: #1c1a1a;
+  border-radius: 3px;
+}
+.compass_number ul li.num-180 {
+  top: -25px;
+  cursor: pointer;
+  left: 50%;
+  margin-left: -20px;
+  background-color: #005a9c;
+  border-color: #005a9c;
+  color: #fff;
+}
+
+.compass_number ul li.num-203 {
+  right: 55px;
+  cursor: pointer;
+  top: -10px;
+}
+.compass_number ul li.num-225 {
+  right: -6px;
+  cursor: pointer;
+  top: 25px;
+}
+.compass_number ul li.num-248 {
+  right: -35px;
+  cursor: pointer;
+  top: 85px;
+}
+
+.compass_number ul li.num-270 {
+  top: 150px;
+  right: -40px;
+  cursor: pointer;
+  background-color: #e7e3e3;
+  color: #005a9c;
+}
+.compass_number ul li.num-293 {
+  right: -30px;
+  cursor: pointer;
+  bottom: 80px;
+}
+.compass_number ul li.num-315 {
+  right: -5px;
+  cursor: pointer;
+  bottom: 15px;
+}
+.compass_number ul li.num-338 {
+  right: 60px;
+  cursor: pointer;
+  bottom: -10px;
+}
+
+.compass_number ul li.num-0 {
+  bottom: -25px;
+  cursor: pointer;
+  left: 50%;
+  margin-left: -15px;
+  background-color: #e7e3e3;
+  border-color: #e7e3e3;
+  color: #005a9c;
+}
+.compass_number ul li.num-22 {
+  bottom: -10px;
+  cursor: pointer;
+  left: 60px;
+}
+.compass_number ul li.num-45 {
+  bottom: 16px;
+  cursor: pointer;
+  left: -5px;
+}
+.compass_number ul li.num-90 {
+  left: -40px;
+  cursor: pointer;
+  top: 150px;
+  background-color: #e7e3e3;
+  color: #005a9c;
+}
+.compass_number ul li.num-67 {
+  left: -30px;
+  cursor: pointer;
+  bottom: 80px;
+}
+.compass_number ul li.num-113 {
+  top: 85px;
+  cursor: pointer;
+  left: -7px;
+  margin-left: -30px;
+}
+.compass_number ul li.num-135 {
+  top: 25px;
+  cursor: pointer;
+  left: -7px;
+}
+.compass_number ul li.num-158 {
+  top: -10px;
+  cursor: pointer;
+  left: 55px;
+}
+
+.list-bg {
+  background-color: #242525 !important;
+  color: white !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+}
+
+.compass-icon {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 300px !important;
+}
+
+.svg-container {
+  transition: transform 0.5s ease-in-out;
+}
+
+.guage_wrapper {
+  margin-bottom: 80px;
+}
+
+.theme-dark .player-wrapper .video_not_selected {
+  color: #fff;
+}
+
+.theme-light .player-wrapper .video_not_selected {
+  color: #000;
+}
+
+.theme-dark .download_form_wrapper .form-control {
+background-color: #242525;
+}
+
+.theme-light .download_form_wrapper .form-control {
+  background-color: #fff;
+}
+
+.theme-light .slider-range .slider-range-span {
+  color: #000;
+}
+
+.theme-dark .slider-range .slider-range-span {
+  color: #fff;
+}
+
+.theme-dark .wave_frequency_wrapper .form-control {
+  background-color: #242525;
+}
+
+.theme-light .wave_frequency_wrapper .form-control {
+  background-color: #fff;
+}
+
+.theme-dark .video_section_wrapper ul li {
+  color: #fff;
+}
+
+.theme-light .video_section_wrapper ul li {
+  color: #000;
+}

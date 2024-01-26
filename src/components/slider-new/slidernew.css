@@ -1,0 +1,110 @@
+  .wrapper {
+    /* margin: 10px auto; */
+    margin: 10px auto;
+    height: 20px;
+    /* width: 220px; */
+    width: 14rem;
+    background: linear-gradient(to right, red 50%, green 50%);
+    border: 1px solid black;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .blind {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgb(51, 51, 51);
+    min-width: 50%;
+  }
+  
+  .blind.right {
+    left: 50%;
+    border-left: 1px solid white;
+    transform-origin: left top;  
+  }
+  
+  .blind.left {
+    border-right: 1px solid white;
+    transform-origin: left top;
+  }
+  
+  #buttons {
+    text-align: center;
+  }
+  
+  /* Ruler crap */
+  
+  /* .ruler-container {
+    text-align: center;
+  }
+  .ruler, .ruler li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: inline-block;
+  }
+  .ruler, .ruler li {
+      display: inline;
+  }
+  .ruler {
+    display:inline-block;
+      margin: 0 auto;
+      background: lightYellow;
+      box-shadow: 0 -1px 1em hsl(60, 60%, 84%) inset;
+      border-radius: 2px;
+      border: 1px solid #ccc;
+      color: #ccc;
+      height: 3em;
+      padding-right: 1cm;
+      white-space: nowrap;
+    margin-left: 1px;
+  }
+  .ruler li {
+      padding-left: 1cm;
+      width: 2em;
+      margin: .64em -1em -.64em;
+      text-align: center;
+      position: relative;
+      text-shadow: 1px 1px hsl(60, 60%, 84%);
+  }
+  .ruler li:before {
+      content: '';
+      position: absolute;
+      border-left: 1px solid #ccc;
+      height: .64em;
+      top: -.64em;
+      right: 1em;
+  } */
+  
+  /* Ruler.css */
+  .ruler {
+    display: flex;
+    /* width: 223px; */
+    width: 14.2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* padding: 10px; */
+    padding-top: 0;
+  }
+  
+  .ruler-item {
+    text-align: center;
+    flex: 1;
+    position: relative;
+  }
+  
+  .scale-line {
+    position: absolute;
+    /* top: -10px; */
+    top: -0.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .small-text{
+    font-size: 0.7rem;
+  }
+  
+  
